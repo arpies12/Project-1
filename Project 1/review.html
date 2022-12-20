@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review|BookTown</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+    <style>
+
+     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+  display: grid;
+  height: 100%;
+  place-items: center;
+  background-image: url('../Project 1/images/bgpurchase.jpg');
+}
+::selection{
+  background: bisque;
+}
+.wrapper{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper .box{
+  background: #fff;
+  width: calc(33% - 10px);
+  padding: 25px;
+  border-radius: 3px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+}
+.wrapper .box i.quote{
+  font-size: 20px;
+  color: bisque;
+}
+.wrapper .box .content{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.box .info .name{
+  font-weight: 600;
+  font-size: 17px;
+}
+.box .info .job{
+  font-size: 16px;
+  font-weight: 500;
+  color: bisque;
+}
+.box .info .stars{
+  margin-top: 2px;
+}
+.box .info .stars i{
+  color: bisque;
+}
+.box .content .image{
+  height: 75px;
+  width: 75px;
+  padding: 3px;
+  background: bisque;
+  border-radius: 50%;
+}
+.content .image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.box:hover .content .image img{
+  border-color: #fff;
+}
+@media (max-width: 1045px) {
+  .wrapper .box{
+    width: calc(50% - 10px);
+    margin: 10px 0;
+  }
+}
+@media (max-width: 702px) {
+  .wrapper .box{
+    width: 100%;
+  }
+}
+</style>
+
+</head>
+
+
+
+
+
+
+
+
+<body>
+  <div class="wrapper">
+    <div class="box">
+      <i class="fas fa-quote-left quote"></i>
+      <p>Here I get good product in low cost .this aap is very good and very easy to use.its is the beeter aap in this world.Its a great app for shopping and delivery is very smooth I just love this app.</p>
+      <div class="content">
+        <div class="info">
+          <div class="name">Alex Smith</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+        <div class="image">
+          <img src="../Project 1/images/boyavatar.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="box">
+      <i class="fas fa-quote-left quote"></i>
+      <p>I have been shopping for more than 3 years and I did not find any complaint in any Book. All the items ordered by me, were delivered before the expected date of delivery and this happens every time so I can conclude that it is perfect and make the delivery of items happen in time and website is completely reliable.</p>
+      <div class="content">
+        <div class="info">
+          <div class="name">Steven Chris</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+        <div class="image">
+          <img src="../Project 1/images/boyavatar.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="box">
+      <i class="fas fa-quote-left  quote"></i>
+      <p>It's providing excellent and safe delivery of good brand , less money to good product delivery most lovable and awesome book delivery .I love to buy more books on BookTown.</p>
+      <div class="content">
+        <div class="info">
+          <div class="name">Kristina Bellis</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+        <div class="image">
+          <img src="../Project 1/images/girl.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>
